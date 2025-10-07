@@ -1,0 +1,358 @@
+
+/* #######################################  general  start ########################################## */
+body{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.align-text{
+    text-align: center;
+}
+.blue{
+    background-color: #e0edff;
+}
+.green{
+    background-color: #d4f7e4;
+}
+.purple{
+    background-color: #f0e5ff;
+}
+/* #######################################  general start ########################################## */
+/* #######################################  hero section start ########################################## */
+.hero-section{
+    width: 90%;
+    margin: 60px auto;
+    max-width: 1100px;
+}
+.hero-section-text{
+    width: 55%;
+    float: left;
+    padding-right: 40px;
+}
+.hero-section-text h1{
+    font-weight: 800;
+    font-size: 4.5rem;
+    margin-bottom: 2px;
+}
+.hero-section-text p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4b5563;
+    margin-bottom: 30px;
+}
+.hero-section-text button.primary{
+    width: 240px;
+    height: 60px;
+    border-radius: 9px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+.hero-section-text button.secondary{
+    width: 140px;
+    height: 60px;
+    border-radius: 9px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.hero-section-img{
+    width: 40%;
+    float: right;
+}
+.hero-section-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* #######################################  hero section end ########################################## */
+/* #######################################  who choose us section start ########################################## */
+.who-choose-us-section{
+    margin-top: 150px;
+    width: 100%;
+}
+/* #######################################  who choose us section Text start ########################################## */
+.who-choose-us-textHead{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.who-choose-us-textHead h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.who-choose-us-textHead p{
+    font-size: 24px;
+    margin: 0 auto;
+    width: 60%;
+    color: #4b5563;
+}
+/* #######################################  who choose us section Text end ########################################## */
+/* #######################################  who choose us section card start ########################################## */
+        .who-choose-us-cards{
+            width: 90%;
+            margin: 60px auto;
+            text-align: center;
+        }
+        .who-choose-us-cards .card{
+            float: left;
+            width: 30%;
+            margin: 1.5%;
+            padding: 40px 20px;
+            border-radius: 16px;
+            box-sizing: border-box; 
+        }
+        .icon{
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            margin: 0 auto 20px;
+        }
+        .who-choose-us-cards .card h3{
+            font-size: 30px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .who-choose-us-cards .card p{
+            font-size: 20px;
+            line-height: 1.5;
+            color: gray;
+        }
+        
+/* #######################################  who choose us section card end ########################################## */
+/* #######################################  who choose us section feature start ########################################## */
+.why-choose-us-feature{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.why-choose-us-img{
+    width: 45%;
+    float: left;
+}
+.why-choose-us-feature .why-choose-us-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.feature {
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+.feature h3{
+  font-size: 30px;
+  color: #001A4D;
+  margin-bottom: 20px;
+}
+.info{
+    border-left: 4px solid brown;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.info h4{
+    margin: 0;
+    font-size: 20px;
+}
+.info p{
+    margin: 5px 0 0;
+    font-size: 15px;
+}
+/* #######################################  who choose us section feature end ########################################## */
+/* #######################################  who choose us section end ########################################## */
+
+/* #######################################  Our Members  section start ########################################## */
+.our-members{
+    margin-top: 80px;
+    background-color: #f9fafb;
+}
+/* #######################################  Our Members text  section start ########################################## */
+.our-member-text{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.our-member-text h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.our-member-text p{
+    font-size: 24px;
+    margin: 0 auto;
+    width: 60%;
+    color: #4b5563;
+}
+/* #######################################  Our Members text section end ########################################## */
+/* #######################################  Our Members card section start ########################################## */
+ .our-member-cards{
+            width: 90%;
+            margin: 60px auto;
+            text-align: center;
+        }
+        .our-member-cards .our-member-card{
+            float: left;
+            width: 30%;
+            margin: 1.5%;
+            padding: 40px 20px;
+            border-radius: 16px;
+            box-sizing: border-box; 
+        }
+        .member-data
+        {
+            margin-bottom: 60px;
+        }
+        .our-member-card img{
+            width: 90px;
+             height: 90px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 30px;
+        }
+        .our-member-card  h4{
+            font-size: 20px;
+            font-weight: 600;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        .our-member-card .member-data p{
+              text-align: left;
+              font-size: 20px;
+        }
+        .our-member-card  p{
+            font-size: 15px;
+            line-height: 1.5;
+            color: gray;
+        }
+/* #######################################  Our Members card section end ########################################## */
+.our-member-status{
+      background-color: #f0f6ff;
+      border-radius: 16px;
+      overflow: hidden;
+      padding: 40px 20px;
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+}
+.mini-card{
+    float: left;
+    width: 25%;
+}
+.mini-card h4{
+    margin: 0;
+    font-size: 32px;
+}
+.mini-card p{
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #333;
+}
+/* #######################################  Our Members  section end ########################################## */
+/* #######################################  form  section start ########################################## */
+ .container-form {
+            max-width: 800px;
+            width: 100%;
+            background-color: #f1f5f9;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 40px auto;
+        }
+        
+        .form-head {
+            color: black;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;    
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .form-container {
+            padding: 30px;
+        }
+        
+        .form-row {
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .form-group {
+            float: left;
+            width: 48%;
+            margin-right: 4%;
+        }
+        
+        .form-group:last-child {
+            margin-right: 0;
+        }
+        
+        .form-group-full {
+            float: none;
+            width: 100%;
+            clear: both;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        input, select, textarea {
+            width: 90%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+        
+        textarea {
+            height: 120px;
+
+        }
+        
+        .submit-btn {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        
+        .terms {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+        
+        .terms a {
+            color: #3498db;
+            text-decoration: none;
+        }
+/* #######################################  form  section end ########################################## */
+/* #######################################  footer  section start ########################################## */
+
+/* #######################################  footer  section end ########################################## */
